@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<body>
+      <%= render 'shared/navbar'%>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
 
-Things you may want to cover:
+      <div class="container">
+      <%= yield %>
+      </div>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  </body>
